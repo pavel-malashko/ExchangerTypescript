@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "target": "es6",
+    "outDir": "build",
+    "types": ["jasmine"],
+    "allowJs": true,
+  },
+  "files":[
+        "myts.ts"
+    ],
+  "exclude":[
+        "node_modules",
+        "build"
+
+  ]
+}
